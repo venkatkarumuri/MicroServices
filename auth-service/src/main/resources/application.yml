@@ -1,0 +1,9 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /auth-service
+spring:
+  application:
+    name: AUTH-SERVICE
+
+
