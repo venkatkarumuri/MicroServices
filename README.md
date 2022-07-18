@@ -1,6 +1,11 @@
-Run Service registry
-Run config server
-Run Gate Way
-Run Auth Services
+# Order of Service Execution
 
-http://localhost:9191/auth-service/status
+Run serviceregistry-service
+
+Run config-server
+
+Run cloud-gateway-service
+
+Run auth-service
+
+http://localhost:9090/auth-service/status

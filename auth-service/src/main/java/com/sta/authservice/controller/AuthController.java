@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AuthController {
     @GetMapping("status")
     public String getUserWithDepartment() {
-        return "Welcome to STA Application....";
+        return "Welcome to STA Application.... Response from Auth Service Through Gateway";
     }
 }

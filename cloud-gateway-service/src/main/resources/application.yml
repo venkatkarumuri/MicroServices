@@ -1,5 +1,7 @@
 server:
-  port: 9191
+  port: 9090
+  servlet:
+    context-path: /api-gateway
 
 spring:
   application:
@@ -10,4 +12,4 @@ spring:
         - id: AUTH-SERVICE
           uri: lb://AUTH-SERVICE/auth-service
           predicates:
-            - Path=/**
+            - Path=/auth-service/**

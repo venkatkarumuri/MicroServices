@@ -1,5 +1,3 @@
 ## Config Server
 
-Local URL: http://localhost:8888/config-server/actuator/info
-username: admin
-password: admin
+Local URL: http://localhost:9296/actuator/health

@@ -1,2 +1,2 @@
-## Service Registery - Service
-Local URL : http://localhost:8761/
+
+Default URL: http://localhost:8761/
